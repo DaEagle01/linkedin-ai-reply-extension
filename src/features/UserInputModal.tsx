@@ -33,11 +33,11 @@ const UserInputModal = ({ isOpen, onClose }) => {
     return (
         <>
             {isOpen && (
-                <div className="bg-gray-800/50 flex items-center justify-center h-screen w-screen" onClick={onClose}>
+                <div className="fixed bg-gray-800/50 flex items-center justify-center h-screen w-screen overflow-hidden" onClick={onClose}>
                     <div
                         onClick={(e) => e.stopPropagation()}
                         tabIndex={-1}
-                        className="overflow-y-auto min-h-48 w-1/3 bg-[#F9FAFB] opacity-100 p-6 rounded-lg"
+                        className="overflow-hidden h-max w-1/3 bg-[#F9FAFB] opacity-100 p-6 rounded-lg"
                     >
                         <div className="w-full space-y-6 mb-6">
                             {messages.map((message, index) => (
