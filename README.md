@@ -1,36 +1,23 @@
-# ChatGPT Writer Take-Home Coding Assignment
+# LinkedIn AI Reply Chrome Extension
 
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with command: `pnpm create plasmo --with-tailwindcss`.
+This is a Chrome extension that runs on LinkedIn and assists users in generating replies to messages.
 
-## Getting Started
+## Languages
 
-First, run the development server:
+This extension is built using Plasmo, React, TypeScript, CSS, and Tailwind CSS.
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
+## How it works
 
-See how to load the extension: https://docs.plasmo.com/framework/workflows/dev#loading-the-extension
+The Chrome extension performs the following tasks:
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/).
+1. Shows the AI icon when the user focuses on the LinkedIn message input field. The icon disappears when the input field is no longer focused.
+2. Displays a center-aligned modal when clicking on the icon. Clicking anywhere outside this modal closes it.
+3. Allows the user to enter any command in the modal's input field.
+4. Displays a response when the “Generate” button is clicked. The “Regenerate” button is non-functional.
+5. Inserts the generated text into the message input field when the user clicks on the insert button.
 
-## Where to edit?
+## Demo
 
-- The main code is located in src/content.tsx. By default, when you run the extension, it displays a static count button on the LinkedIn website. You need to replace it with your own code.
+Here is a brief video demonstrating all tasks as mentioned:
 
-![count btn on linkedin](count_btn_on_linkedin.png)
-
-## Making production build
-
-Run the following:
-
-```bash
-pnpm build
-# or
-npm run build
-```
-
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
-# linkedin-ai-reply-extension
+[![Demo video](https://i.ibb.co/QksYcNX/linkedin-ai-reply-extension.png)](https://drive.google.com/file/d/1_S_M0X2CBhwdXaq9jo1ASc4LLmVoISzE/view?usp=sharing)
