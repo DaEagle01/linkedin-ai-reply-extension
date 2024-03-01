@@ -20,4 +20,5 @@ The Chrome extension performs the following tasks:
 
 Here is a brief video demonstrating all tasks as mentioned:
 
-[![Demo video](https://i.ibb.co/QksYcNX/linkedin-ai-reply-extension.png)](https://drive.google.com/file/d/1_S_M0X2CBhwdXaq9jo1ASc4LLmVoISzE/view?usp=sharing)
+https://github.com/DaEagle01/linkedin-ai-reply-extension/assets/86624330/22a0f209-55f5-4b5c-9c9a-7a55a918d36e
+
